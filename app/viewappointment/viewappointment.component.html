@@ -1,0 +1,53 @@
+<table class="table table-hover table-sm" >
+
+    <thead class="thead-light">
+  
+      <tr>
+  
+        <th> FIRSTNAME</th>
+        <th>LASTNAME</th>
+        <th>PHONE</th>
+        <th>EMAIL</th>
+        <th> AGE</th>
+        <th>STREET ADDRESS</th>
+        <th>CITY</th>
+        <th>STATE</th>
+        <th>COUNTRY</th>
+      
+      </tr>
+  
+    </thead>
+  
+    <tbody>
+  
+      <tr *ngFor="let user of AppointmentList">
+  
+        <td>{{user.firstname}}</td>
+  
+        <td>{{user.lastname}}</td>
+  
+        <td>{{user.phone}}</td>
+  
+        <td>{{user.email}}</td>
+  
+        <td>{{user.age}}</td>
+        <td>{{user.streetaddress}}</td>
+        <td>{{user.city}}</td>
+  
+    
+  
+        <td>{{user.state}}</td>
+  
+     
+        <td>{{user.country}}</td>
+     
+  
+        </tr>
+  
+        </tbody>
+  
+  </table>
+  
+  
+  
+  
